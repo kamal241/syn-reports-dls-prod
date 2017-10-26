@@ -1,0 +1,3 @@
+lat,lon,lname,tzoffset,lcid,nodfcst,in_prmap,wst
+18.0,118.0,TA_TESTLOC_1,6.5,91,7,0,2
+20.583333,120.3333,CYCLONE_TEST1,8,92,7,0,2

@@ -1,0 +1,2 @@
+lat,lon,lname,tzoffset
+26.86056,52.27472,DD2,4.0

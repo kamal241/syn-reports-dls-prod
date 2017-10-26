@@ -1,0 +1,15 @@
+00 00 * * * /syndata/staging/dls-prod/gfs_sel_url_generator.sh
+00 05 * * * /syndata/staging/dls-prod/dls-dlscript/gfs_fcst_sel_aria_downloader.sh 00
+30 04 * * * /syndata/staging/dls-prod/dls-dlscript/visibility_fcst_downloader.sh 00
+30 06 * * * /syndata/staging/dls-prod/dls-dlscript/ww3_fcst_downloader.sh 00
+15 10 * * * /syndata/staging/dls-prod/dls-dlscript/ss_fcst_downloader.sh 0
+30 10 * * * /syndata/staging/dls-prod/dls-dlscript/visibility_fcst_downloader.sh 06
+00 11 * * * /syndata/staging/dls-prod/dls-dlscript/gfs_fcst_sel_aria_downloader.sh 06
+30 12 * * * /syndata/staging/dls-prod/dls-dlscript/ww3_fcst_downloader.sh 06
+15 16 * * * /syndata/staging/dls-prod/dls-dlscript/ss_fcst_downloader.sh 1
+30 16 * * * /syndata/staging/dls-prod/dls-dlscript/visibility_fcst_downloader.sh 12
+00 17 * * * /syndata/staging/dls-prod/dls-dlscript/gfs_fcst_sel_aria_downloader.sh 12
+30 18 * * * /syndata/staging/dls-prod/dls-dlscript/ww3_fcst_downloader.sh 12
+30 22 * * * /syndata/staging/dls-prod/dls-dlscript/visibility_fcst_downloader.sh 18
+00 23 * * * /syndata/staging/dls-prod/dls-dlscript/gfs_fcst_sel_aria_downloader.sh 18
+30 00 * * * /syndata/staging/dls-prod/dls-dlscript/ww3_fcst_downloader.sh 18

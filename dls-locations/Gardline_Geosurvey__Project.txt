@@ -1,0 +1,4 @@
+lat,lon,lname,tzoffset,lcid,nodfcst,in_prmap,wst
+41.03358,289.29972,MV_Ocean_Researcher,-4.0,112,7,1,2
+52.13358,2.2,EA_One,1.0,113,7,1,2
+57.994888,0.7476383,MV_Ocean_Reliance,1.0,114,7,1,2

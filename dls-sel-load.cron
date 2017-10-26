@@ -1,0 +1,9 @@
+01 00 * * * export dls_path=/syndata/staging/dls-prod;$dls_path/gfs_sel_url_generator.sh
+00 05 * * * export dls_path=/syndata/staging/dls-prod;$dls_path/dls-dlscript/gfs_fcst_sel_aria_downloader.sh 00
+15 05 * * * export lds_path=/syndata/staging/lds-prod/lds-prod;$lds_path/lds-ldscript/synergy_db_loader_concurrent.sh 00
+00 11 * * * export dls_path=/syndata/staging/dls-prod;$dls_path/dls-dlscript/gfs_fcst_sel_aria_downloader.sh 06
+15 11 * * * export lds_path=/syndata/staging/lds-prod/lds-prod;$lds_path/lds-ldscript/synergy_db_loader_concurrent.sh 06
+00 17 * * * export dls_path=/syndata/staging/dls-prod;$dls_path/dls-dlscript/gfs_fcst_sel_aria_downloader.sh 12
+15 17 * * * export lds_path=/syndata/staging/lds-prod/lds-prod;$lds_path/lds-ldscript/synergy_db_loader_concurrent.sh 12
+00 23 * * * export dls_path=/syndata/staging/dls-prod;$dls_path/dls-dlscript/gfs_fcst_sel_aria_downloader.sh 18
+15 23 * * * export lds_path=/syndata/staging/lds-prod/lds-prod;$lds_path/lds-ldscript/synergy_db_loader_concurrent.sh 18

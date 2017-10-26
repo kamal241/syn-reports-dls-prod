@@ -1,0 +1,4 @@
+lat,lon,lname,tzoffset,lcid,nodfcst,in_prmap
+25.7,54.5,Gulf,4.0,4,5,1
+10.3,100.0,Bualuang,7.0,2,5,1
+5.0,113.3,F12,8.0,3,5,1

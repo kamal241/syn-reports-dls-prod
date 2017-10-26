@@ -1,0 +1,2 @@
+lat,lon,lname,tzoffset,lcid,nodfcst,in_prmap,wst
+25.7465,54.625833,Siri_Ilam,4.0,111,5,0,2
