@@ -1,0 +1,2 @@
+lat,lon,lname,tzoffset,lcid,nodfcst,in_prmap,wst,pid,wres,mmrc
+15.2001,94.7,Yadana_Field,6.5,127,5,7,2,12,12.5,15

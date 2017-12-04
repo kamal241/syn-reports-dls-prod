@@ -11,6 +11,7 @@ PYTHONIOENCODING=utf8
 30 11 * * * /syndata/dls-prod/dls-dlscript/generate_land_reports.sh 06
 30 12 * * * /syndata/dls-prod/dls-dlscript/ww3_fcst_downloader.sh 06
 45 12 * * * /syndata/dls-prod/dls-dlscript/generate_reports.sh 06
+04 16 * * 0 /syndata/dls-prod/dls-dlscript/generate_wsr.sh
 15 16 * * * /syndata/dls-prod/dls-dlscript/ss_fcst_downloader.sh 1
 30 16 * * * /syndata/dls-prod/dls-dlscript/visibility_fcst_downloader.sh 12
 00 17 * * * /syndata/dls-prod/dls-dlscript/gfs_fcst_sel_aria_downloader.sh 12
@@ -28,12 +29,23 @@ PYTHONIOENCODING=utf8
 00 01 * * * /syndata/dls-prod/cleanup_reports.sh
 00 01 * * * /syndata/dls-prod/tcleanup_reports.sh
 */30 * * * *  /syndata/dls-prod/dls-dlscript/send_scheduled_reports.sh
+*/30 * * * *  /syndata/dls-prod/dls-dlscript/srsend_scheduled_reports.sh
 45 09,11,21,23 * * * /syndata/dls-prod/dls-dlscript/msend_scheduled_reports.sh
+45 09,11,21,23 * * * /syndata/dls-prod/dls-dlscript/srmsend_scheduled_reports.sh
 15 03,15 * * * /syndata/dls-prod/dls-dlscript/msend_scheduled_reports.sh
-00 04,15 * * * /syndata/dls-prod/dls-dlscript/fr_msend_scheduled_reports.sh
+15 03,15 * * * /syndata/dls-prod/dls-dlscript/srmsend_scheduled_reports.sh
+30 03,15 * * * /syndata/dls-prod/dls-dlscript/msend_scheduled_reports.sh
+30 03,15 * * * /syndata/dls-prod/dls-dlscript/srmsend_scheduled_reports.sh
 30 09,21 * * * /syndata/dls-prod/dls-dlscript/gmo_msend_scheduled_reports.sh
-30 04,10,16,22 * * * /syndata/dls-prod/dls-dlscript/gmo_msend_scheduled_reports.sh
+30 09,21 * * * /syndata/dls-prod/dls-dlscript/srgmo_msend_scheduled_reports.sh
+30 00,04,06,10,12,16,18,22 * * * /syndata/dls-prod/dls-dlscript/gmo_msend_scheduled_reports.sh
+30 00,04,06,10,12,16,18,22 * * * /syndata/dls-prod/dls-dlscript/srgmo_msend_scheduled_reports.sh
 15 05,11,17,23 * * * /syndata/dls-prod/dls-dlscript/gmo_msend_scheduled_reports.sh
+15 05,11,17,23 * * * /syndata/dls-prod/dls-dlscript/srgmo_msend_scheduled_reports.sh
+45 03 * * * /syndata/dls-prod/dls-dlscript/gmo_msend_scheduled_reports.sh
+45 03 * * * /syndata/dls-prod/dls-dlscript/srgmo_msend_scheduled_reports.sh
 00 05,11,17,23 * * * /syndata/dls-prod/dls-dlscript/gmo_msend_scheduled_reports.sh
+00 05,11,17,23 * * * /syndata/dls-prod/dls-dlscript/srgmo_msend_scheduled_reports.sh
 00 * * * * /syndata/dls-prod/dls-dlscript/check_ta.sh
 30 * * * * /syndata/dls-prod/dls-dlscript/check_ta.sh
+00 22 * * 0 /syndata/dls-prod/dls-dlscript/send_wsr.sh

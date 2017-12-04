@@ -1,2 +1,2 @@
-lat,lon,lname,tzoffset,lcid,nodfcst,in_prmap,wst
-20.7834,91.4334,Asean_Restorer,6,119,5,1,2
+lat,lon,lname,tzoffset,lcid,nodfcst,in_prmap,wst,wres,mmrc
+20.7834,91.4334,Asean_Restorer,6,119,5,1,2,5.0,0

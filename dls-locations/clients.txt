@@ -1,0 +1,13 @@
+cid,cname
+0,TEST
+1,Asean Cableship
+2,Atlasip
+3,Bordeaux Vineam
+4,Dialog Plant Services
+5,Gardline Geosurvey
+6,Global Marine Group
+7,PT TIMAS SUPLINDO
+8,Sapura Energy
+9,Sapura Offshore
+10,Total
+11,Total E&P Myanmar

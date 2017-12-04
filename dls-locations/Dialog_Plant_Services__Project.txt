@@ -1,2 +1,2 @@
-lat,lon,lname,tzoffset,lcid,nodfcst,in_prmap,wst
-1.3,104.25,Pengerang_Terminal,8.0,115,7,0,2
+lat,lon,lname,tzoffset,lcid,nodfcst,in_prmap,wst,wres,mmrc
+1.3,104.25,Pengerang_Terminal,8.0,115,7,0,2,5.0,0
