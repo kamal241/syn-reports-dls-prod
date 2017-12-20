@@ -1,2 +1,2 @@
 lat,lon,lname,tzoffset,lcid,nodfcst,in_prmap,wst,wres,mmrc
-1.25,104.5834,Limin_Venture,7.0,117,5,0,2,5.0,0
+0.1384,104.8867,Limin_Venture,7.0,117,5,0,2,5.0,0

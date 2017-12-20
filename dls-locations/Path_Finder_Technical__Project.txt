@@ -1,0 +1,2 @@
+lat,lon,lname,tzoffset,lcid,nodfcst,in_prmap,wst,pid,wres,mmrc
+15.4334,95.5167,Yadana_GPR,6.5,130,5,7,2,13,12.5,4
